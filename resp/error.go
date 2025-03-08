@@ -39,4 +39,9 @@ var (
 		Code: http.StatusForbidden,
 		Msg:  "Req Invalid",
 	}
+
+	DBErr = &Error{
+		Code: http.StatusInternalServerError,
+		Msg:  "DB Error",
+	}
 )
